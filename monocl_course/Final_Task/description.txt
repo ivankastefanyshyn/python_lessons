@@ -1,0 +1,25 @@
+1. AB:
+- copied the text from EPUB-format into a TXT file;
+- file has a convenient line-by-line structure, but some edits were necessary, in particular:
+    * dots at the end of sessions' names were lost during copying;
+    * H. Smith1002C - corrected;
+    * T. Bezeij, Van2 - removed coma;
+    * few cases where affiliations starting with a number caused the splitter to fail (
+        -281st Department of Neurology, Comenius University, Bratislava, Slovak Republic; -10237 Barton Street East, Hamilton, Canada;-4Institute of Science and Technology for Brain-inspired Intelligence, Shanghai, China)
+    *Dongzhimen Hospital, Beijing University of Chinese Medicine, Beijing, China - had no index number, so corrected
+- corrections in Excel due to Validator:
+    *removed I. Investigators; O.B.O. The Safe-Ich Registry Group; F.T. Oxford Vascular Study; S.I. Investigators, R.R.-N.A.R.-E. Investigators
+    *removed duplicate authors in some presentations
+    
+2. Program
+- processed program with scrapy
+- in Excel file:
+    * deleted 3 presentations with titles ("Q&A", "AUDIENCE Q&A)
+    * PRODUCT THEATRE 01, PRODUCT THEATRE 02, PRODUCT THEATRE 03 - manually corrected titles of presentations
+    * "(NOT INCLUDED IN THE MAIN EVENT CME/CPD CREDIT)" - was deleted from sessions' names
+
+3. Merged 2 Excel files
+- in merged file corrected names for sessions "PARALLEL INDUSTRY SYMPOSIUM";
+- verified all roles
+- checked with our validator
+- sorted by session name
